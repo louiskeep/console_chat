@@ -1,0 +1,5 @@
+DB instance identifier: userauthentication
+username: admin
+password: GlobalDoctor989??
+host: userauthentication.c7xiltckrktp.us-east-2.rds.amazonaws.com
+port: 3306
