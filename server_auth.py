@@ -5,7 +5,7 @@ import os
 def check_login(username, userpassword):
     user = os.environ.get('AWS_USERNAME')
     pw = os.environ.get('AWS_PW')
-    host = 'userauthentication.c7xiltckrktp.us-east-2.rds.amazonaws.com'
+    host = os.environ.get('AWS_HOST')
 
     try:
         with mysql.connector.connect(user=user, password=pw, host=host) as con:
